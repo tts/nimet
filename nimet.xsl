@@ -32,7 +32,6 @@
         <xsl:value-of select="pnr:Paikka/pnr:nimi/pnr:PaikanNimi/pnr:kieliKoodi"/>
    </xsl:variable>
 
-
    <xsl:for-each select=".">
       <xsl:value-of select="$piste"/><xsl:text>,</xsl:text><xsl:value-of select="$nimi"/><xsl:text>,</xsl:text><xsl:value-of select="$kieli"/><xsl:text>
     </xsl:text>
